@@ -70,7 +70,7 @@ namespace BindingCollections
                 }
             }
         }
-        private ObservableCollection<AppointmentStory> _lastAppointments;
+        private ObservableCollection<AppointmentStory> _lastAppointments = new ObservableCollection<AppointmentStory>();
         public ObservableCollection<AppointmentStory> LastAppointment
         {
             get => _lastAppointments;

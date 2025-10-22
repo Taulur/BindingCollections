@@ -6,7 +6,13 @@
         xmlns:local="clr-namespace:BindingCollections"
         mc:Ignorable="d"
         Title="MainWindow" Height="550" Width="800">
-    <Grid>
-        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"></Frame>
-    </Grid>
+    <StackPanel>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Height="485" Width="800"></Frame>
+        <StackPanel Background="FloralWhite" Orientation="Horizontal">
+                <Label  VerticalAlignment="Center" Content="Количество пользователей:"/>
+            <Label VerticalAlignment="Center" Content="{Binding CountDoctor,  UpdateSourceTrigger=PropertyChanged}"/>
+                <Label VerticalAlignment="Center" Content="Количество пациентов:"/>
+                <Label VerticalAlignment="Center" Content="{Binding CountPatient,  UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+    </StackPanel>
 </Window>

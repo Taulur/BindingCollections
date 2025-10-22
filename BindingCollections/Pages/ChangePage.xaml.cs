@@ -40,7 +40,7 @@ namespace BindingCollections.Pages
         private void Change(object sender, RoutedEventArgs e)
         {
             string jsonString = JsonSerializer.Serialize(copyPatient);
-            File.WriteAllText("P_" + copyPatient.Id + ".json", jsonString);
+            File.WriteAllText("P_" + _patient.Id + ".json", jsonString);
             _patient.Name = copyPatient.Name;
             _patient.LastName = copyPatient.LastName;
             _patient.MiddleName = copyPatient.MiddleName;

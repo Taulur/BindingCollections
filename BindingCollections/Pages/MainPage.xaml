@@ -7,8 +7,8 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="700"
       Title="MainPage">
-   
-    <StackPanel Background="WhiteSmoke" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="2" Grid.Column="0">
+
+    <StackPanel Width="400" Background="WhiteSmoke" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="2" Grid.Column="0">
         <Label HorizontalAlignment="Center" Height="25" Content="Текущий пользователь"/>
         
         <Grid Margin="10">

@@ -14,7 +14,14 @@ namespace BindingCollections
         public string Date
         {
             get => _date;
-            set => _date = value;
+            set
+            {
+                if (_date != value)
+                {
+                    _date = value;
+                    OnPropertyChanged();
+                }
+            }
         }
         private Doctor _doctor;
         public Doctor Doctor
@@ -75,6 +82,8 @@ namespace BindingCollections
             Diagnosis = _diagnosis;
             Recomendations = _recomendations;
         }
+
+
 
     }
 }

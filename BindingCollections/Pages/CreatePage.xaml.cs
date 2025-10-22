@@ -25,12 +25,11 @@ namespace BindingCollections.Pages
     {
         Random rnd = new Random();
         Patient registredPatient = new Patient();
-        ObservableCollection<Patient> _patientList;
-        public CreatePage(ObservableCollection<Patient> PatientList)
+        public CreatePage()
         {
-            _patientList = PatientList;
-            DataContext = registredPatient;
+            
             InitializeComponent();
+            DataContext = registredPatient;
         }
 
         private void Return(object sender, RoutedEventArgs e)
@@ -40,7 +39,7 @@ namespace BindingCollections.Pages
 
         private void Register(object sender, RoutedEventArgs e)
         {
-            if (registredPatient.Name != "" && registredPatient.LastName != "" && registredPatient.MiddleName != "" && registredPatient.Birthday != null)
+            if (registredPatient.Name != "" && registredPatient.LastName != "" && registredPatient.MiddleName != "" && registredPatient.Birthday != "")
             {
                 string rndId = "999999";
                 string fileName = "null";
@@ -62,14 +61,16 @@ namespace BindingCollections.Pages
                     }
                     else
                     {
-                        fileName = "D_" + rndId + ".json";
+                        fileName = "P_" + rndId + ".json";
                         break;
                     }
                 }
                 registredPatient.Id = rndId;
                 string jsonString = JsonSerializer.Serialize(registredPatient);
                 File.WriteAllText(fileName, jsonString);
-                _patientList.Add(registredPatient);
+                MainPage.PatientList.Add(registredPatient);
+                MainWindow.count.Refresh();
+                MainPage.Refresh();
                 NavigationService.GoBack();
             }
         }

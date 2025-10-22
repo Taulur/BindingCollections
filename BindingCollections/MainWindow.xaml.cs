@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BindingCollections.Pages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,8 +11,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
-using BindingCollections.Pages;
+using System.IO;
 
 namespace BindingCollections
 {
@@ -20,10 +20,15 @@ namespace BindingCollections
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static Count count = new Count();
+
+        
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = count;
             MainFrame.Navigate(new LoginPage());
+            count.Refresh();
         }
     }
 }

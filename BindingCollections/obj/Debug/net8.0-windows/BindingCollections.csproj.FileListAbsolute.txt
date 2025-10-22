@@ -30,3 +30,4 @@ C:\Учеба\BindingCollections\BindingCollections\obj\Debug\net8.0-windows\ref
 C:\Учеба\BindingCollections\BindingCollections\obj\Debug\net8.0-windows\BindingCollections.pdb
 C:\Учеба\BindingCollections\BindingCollections\obj\Debug\net8.0-windows\BindingCollections.genruntimeconfig.cache
 C:\Учеба\BindingCollections\BindingCollections\obj\Debug\net8.0-windows\ref\BindingCollections.dll
+C:\Учеба\BindingCollections\BindingCollections\obj\Debug\net8.0-windows\BindingCollections.sourcelink.json
