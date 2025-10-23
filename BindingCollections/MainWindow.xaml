@@ -1,13 +1,13 @@
-﻿<Window x:Class="BindingCollections.MainWindow"
+﻿<Window  x:Class="BindingCollections.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BindingCollections"
         mc:Ignorable="d"
-        Title="MainWindow" Height="550" Width="800">
+        Title="MainWindow" Height="475" Width="800">
     <StackPanel>
-        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Height="485" Width="800"></Frame>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Height="430" Width="800"></Frame>
         <StackPanel Background="FloralWhite" Orientation="Horizontal">
                 <Label  VerticalAlignment="Center" Content="Количество пользователей:"/>
             <Label VerticalAlignment="Center" Content="{Binding CountDoctor,  UpdateSourceTrigger=PropertyChanged}"/>

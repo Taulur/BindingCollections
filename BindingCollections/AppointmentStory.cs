@@ -4,7 +4,9 @@ using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace BindingCollections
 {
@@ -23,15 +25,15 @@ namespace BindingCollections
                 }
             }
         }
-        private Doctor _doctor;
-        public Doctor Doctor
+        private int _doctorId;
+        public int DoctorId
         {
-            get => _doctor;
+            get => _doctorId;
             set
             {
-                if (_doctor != value)
+                if (_doctorId != value)
                 {
-                    _doctor = value;
+                    _doctorId = value;
                     OnPropertyChanged();
                 }
             }
@@ -75,10 +77,22 @@ namespace BindingCollections
 
         }
 
-       public AppointmentStory(string _date, Doctor _doctor, string _diagnosis, string _recomendations)
+        private string ReturnNameById
+        {
+            get
+            {
+                string jsonString = File.ReadAllText("D_" + DoctorId.ToString() + ".json");
+                Doctor doc = JsonSerializer.Deserialize<Doctor>(jsonString);
+                string name = $"{doc.Name} {doc.LastName} {doc.MiddleName}";
+                return name;
+            }
+            set { }
+        }
+
+        public AppointmentStory(string _date, int _doctorId, string _diagnosis, string _recomendations)
         {
             Date = _date;
-            Doctor = _doctor;
+            DoctorId = _doctorId;
             Diagnosis = _diagnosis;
             Recomendations = _recomendations;
         }

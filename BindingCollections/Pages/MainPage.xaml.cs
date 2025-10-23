@@ -69,7 +69,7 @@ namespace BindingCollections.Pages
         {
             if (selectedPatient != null)
             {
-                NavigationService.Navigate(new AppointmentPage(selectedPatient));
+                NavigationService.Navigate(new AppointmentPage(selectedPatient,Doctor));
             }
         }
 

@@ -4,7 +4,9 @@ using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace BindingCollections
 {
@@ -95,6 +97,8 @@ namespace BindingCollections
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propName));
         }
+
+       
 
         public Doctor()
         {

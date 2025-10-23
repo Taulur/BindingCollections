@@ -8,7 +8,7 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="AppointmentPage">
 
-    <StackPanel Width="400" Background="AntiqueWhite" VerticalAlignment="Center" HorizontalAlignment="Center">
+    <StackPanel Width="800" Height="450" Background="AntiqueWhite" VerticalAlignment="Center" HorizontalAlignment="Center">
         <Label HorizontalAlignment="Center" Height="25" Content="Приём пациента"/>
         <Grid Margin="10">
             <Grid.ColumnDefinitions>
@@ -43,8 +43,8 @@
                             <TextBlock Text="{Binding Date}"/>
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Id принимающего доктора: "/>
-                            <TextBlock Text="{Binding Doctor.Id}"/>
+                            <TextBlock Text="ФИО принимающего доктора: "/>
+                            <TextBlock Text="{Binding ReturnNameById}"/>
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Диагноз: "/>
@@ -77,10 +77,10 @@
             <Label Grid.ColumnSpan="2" HorizontalAlignment="Center" Height="25" Content="Рекомендация: " Grid.Row="2" Grid.Column="0"/>
             <DatePicker Text="{Binding CopyAppointment.Date, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="120" Height="25"  Grid.Row="0" Grid.Column="1"/>
             <TextBox Text="{Binding CopyAppointment.Diagnosis, UpdateSourceTrigger=PropertyChanged}"  Width="120" Height="20" Grid.Row="1" Grid.Column="1"/>
-            <TextBox Text="{Binding CopyAppointment.Recomendations, UpdateSourceTrigger=PropertyChanged}"  Margin="10" Grid.ColumnSpan="3" Width="225" Height="45" Grid.Row="7" Grid.Column="0"/>
+            <TextBox Text="{Binding CopyAppointment.Recomendations, UpdateSourceTrigger=PropertyChanged}"  Margin="10" Grid.ColumnSpan="3" Width="225" Height="30" Grid.Row="7" Grid.Column="0"/>
         </Grid>
         <Button Click="Add" Content="Добавить"/>
-        <Button Click="Change" Content="Изменить"/>
+  
         <Button Click="Return" Content="Вернуться"/>
     </StackPanel>
 </Page>

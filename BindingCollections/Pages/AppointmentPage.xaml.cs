@@ -23,14 +23,17 @@ namespace BindingCollections.Pages
     public partial class AppointmentPage : Page
     {
         public Patient Patient { get; set; }
-        public AppointmentStory? SelectedAppointment { get; set; }
-        AppointmentStory changedAppointment;
+        Doctor doctor;
+   
+
+          
         public AppointmentStory? CopyAppointment { get; set; } = new AppointmentStory();
 
-        public AppointmentPage(Patient _patient)
+        public AppointmentPage(Patient _patient, Doctor _doctor)
         {
             InitializeComponent();
             Patient = _patient;
+            doctor = _doctor;
             DataContext = this;
 
         }
@@ -49,38 +52,19 @@ namespace BindingCollections.Pages
 
         private void Change(object sender, RoutedEventArgs e)
         {
-            var originalAppointment = Patient.LastAppointment.FirstOrDefault(a =>
-       a.Date == changedAppointment.Date &&
-       a.Doctor?.Id == changedAppointment.Doctor?.Id &&
-       a.Diagnosis == changedAppointment.Diagnosis &&
-       a.Recomendations == changedAppointment.Recomendations);
-
-            if (originalAppointment != null)
-            {
-                Patient.LastAppointment.Remove(originalAppointment);
-                Patient.LastAppointment.Add(CopyAppointment);
-                string jsonString = JsonSerializer.Serialize(Patient);
-                File.WriteAllText("P_" + Patient.Id + ".json", jsonString);
-            }
+            
         }
 
         private void ListView_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            if (SelectedAppointment != null)
-            {
-                CopyAppointment.Date = SelectedAppointment.Date;
-                CopyAppointment.Doctor = SelectedAppointment.Doctor;
-                CopyAppointment.Diagnosis = SelectedAppointment.Diagnosis;
-                CopyAppointment.Recomendations = SelectedAppointment.Recomendations;
-                changedAppointment = new AppointmentStory(SelectedAppointment.Date,SelectedAppointment.Doctor,SelectedAppointment.Diagnosis,SelectedAppointment.Recomendations);
-
-            }
+            
         }
 
         private void Add(object sender, RoutedEventArgs e)
         {
              if (CopyAppointment.Diagnosis != "" && CopyAppointment.Recomendations != "")
             {
+                CopyAppointment.DoctorId = doctor.Id;
                 Patient.LastAppointment.Add(CopyAppointment);
                 string jsonString = JsonSerializer.Serialize(Patient);
                 File.WriteAllText("P_" + Patient.Id + ".json", jsonString);
