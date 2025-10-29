@@ -8,10 +8,10 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="MainPage">
 
-    <StackPanel Width="800" Height="450" Background="WhiteSmoke" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="2" Grid.Column="0">
+    <StackPanel Style="{DynamicResource StackBack}"  Width="800" Height="450" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="2" Grid.Column="0">
         <Label HorizontalAlignment="Center" Height="25" Content="Текущий пользователь"/>
-        
-        <Grid Margin="10">
+
+        <Grid Style="{DynamicResource GridBack}">
            
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
@@ -36,9 +36,9 @@
             <Label Height="25" Content="{Binding Doctor.Password, UpdateSourceTrigger=PropertyChanged}" Grid.Row="4" Grid.Column="1"/>
         </Grid>
         <StackPanel>
-            <Button Click="Create"  Margin="5" Width="150" Content="Создать пациента"/>
-            <Button Click="Appointment"  Margin="5" Width="150" Content="Начать приём"/>
-            <Button Click="Change"  Margin="5" Width="150" Content="Изменить информацию"/>
+            <Button Style="{DynamicResource AddButton}" Click="Create" Width="150"/>
+            <Button Click="Appointment"  Width="150" Content="Начать приём"/>
+            <Button Click="Change"  Width="150" Content="Изменить информацию"/>
         </StackPanel>
         <ListView ItemsSource="{Binding PatientList}" SelectedItem="{Binding selectedPatient}"  Width="300" Height="150">
             <ListView.ItemTemplate>

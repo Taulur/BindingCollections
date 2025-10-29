@@ -8,9 +8,9 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="AppointmentPage">
 
-    <StackPanel Width="800" Height="450" Background="AntiqueWhite" VerticalAlignment="Center" HorizontalAlignment="Center">
+    <StackPanel Style="{DynamicResource StackBack}"  Width="800" Height="450"  VerticalAlignment="Center" HorizontalAlignment="Center">
         <Label HorizontalAlignment="Center" Height="25" Content="Приём пациента"/>
-        <Grid Margin="10">
+        <Grid Style="{DynamicResource GridBack}"  >
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
@@ -34,7 +34,7 @@
             <Label Height="25"  Content="{Binding Patient.Birthday}" Grid.Row="3" Grid.Column="1"/>
             
         </Grid>
-        <ListView ItemsSource="{Binding Patient.LastAppointment}" LostFocus="ListView_LostFocus" SelectionChanged="ListView_SelectionChanged" SelectedItem="{Binding SelectedAppointment}" MouseDoubleClick="ListView_MouseDoubleClick"  Width="300" Height="100">
+        <ListView ItemsSource="{Binding Patient.LastAppointment}" LostFocus="ListView_LostFocus" SelectionChanged="ListView_SelectionChanged" SelectedItem="{Binding CopyAppointment}" MouseDoubleClick="ListView_MouseDoubleClick"  Width="300" Height="100">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel>
@@ -43,8 +43,8 @@
                             <TextBlock Text="{Binding Date}"/>
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="ФИО принимающего доктора: "/>
-                            <TextBlock Text="{Binding ReturnNameById}"/>
+                            <TextBlock Text="Id доктора: "/>
+                            <TextBlock Text="{Binding DoctorId}"/>
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Диагноз: "/>
@@ -59,7 +59,7 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Grid Margin="10">
+        <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
@@ -79,8 +79,8 @@
             <TextBox Text="{Binding CopyAppointment.Diagnosis, UpdateSourceTrigger=PropertyChanged}"  Width="120" Height="20" Grid.Row="1" Grid.Column="1"/>
             <TextBox Text="{Binding CopyAppointment.Recomendations, UpdateSourceTrigger=PropertyChanged}"  Margin="10" Grid.ColumnSpan="3" Width="225" Height="30" Grid.Row="7" Grid.Column="0"/>
         </Grid>
-        <Button Click="Add" Content="Добавить"/>
-  
-        <Button Click="Return" Content="Вернуться"/>
+        <Button Style="{StaticResource AddButton}" Click="Add" Width="250" />
+
+        <Button Click="Return" Width="250"  Content="Вернуться"/>
     </StackPanel>
 </Page>

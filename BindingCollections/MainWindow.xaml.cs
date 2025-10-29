@@ -30,5 +30,10 @@ namespace BindingCollections
             MainFrame.Navigate(new LoginPage());
             count.Refresh();
         }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            ThemeHelper.Toggle();
+        }
     }
 }

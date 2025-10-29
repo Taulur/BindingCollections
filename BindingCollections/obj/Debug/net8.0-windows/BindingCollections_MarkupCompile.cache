@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Учеба\BindingCollections\BindingCollections\App.xaml
-7-2015521710
+101954336738
 
-14-38553138
+16-761002036
 198-192518753
-MainWindow.xaml;Pages\AppointmentPage.xaml;Pages\ChangePage.xaml;Pages\CreatePage.xaml;Pages\LoginPage.xaml;Pages\MainPage.xaml;Pages\RegistrationPage.xaml;
+MainWindow.xaml;Pages\AppointmentPage.xaml;Pages\ChangePage.xaml;Pages\CreatePage.xaml;Pages\LoginPage.xaml;Pages\MainPage.xaml;Pages\RegistrationPage.xaml;Styles\Theme\Dark.xaml;Styles\Theme\Default.xaml;Styles\UI\Button.xaml;
 
 False
 

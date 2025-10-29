@@ -77,17 +77,7 @@ namespace BindingCollections
 
         }
 
-        private string ReturnNameById
-        {
-            get
-            {
-                string jsonString = File.ReadAllText("D_" + DoctorId.ToString() + ".json");
-                Doctor doc = JsonSerializer.Deserialize<Doctor>(jsonString);
-                string name = $"{doc.Name} {doc.LastName} {doc.MiddleName}";
-                return name;
-            }
-            set { }
-        }
+       
 
         public AppointmentStory(string _date, int _doctorId, string _diagnosis, string _recomendations)
         {
