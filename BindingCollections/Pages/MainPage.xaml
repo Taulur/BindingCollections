@@ -8,8 +8,8 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="MainPage">
 
-    <StackPanel Style="{DynamicResource StackBack}"  Width="800" Height="450" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="2" Grid.Column="0">
-        <Label HorizontalAlignment="Center" Height="25" Content="Текущий пользователь"/>
+    <StackPanel Style="{DynamicResource StackBack}" Grid.Row="2" Grid.Column="0">
+        <Label Style="{DynamicResource MenuLabel}" Content="Текущий пользователь"/>
 
         <Grid Style="{DynamicResource GridBack}">
            
@@ -24,23 +24,23 @@
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <Label Height="25" Content="Имя: " Grid.Row="0" Grid.Column="0"/>
-            <Label Height="25" Content="Фамилия: " Grid.Row="1" Grid.Column="0"/>
-            <Label Height="25" Content="Отчество: " Grid.Row="2" Grid.Column="0"/>
-            <Label Height="25" Content="Специализация: " Grid.Row="3" Grid.Column="0"/>
-            <Label Height="25" Content="Пароль: " Grid.Row="4" Grid.Column="0"/>
-            <Label Height="25" Content="{Binding Doctor.Name,  UpdateSourceTrigger=PropertyChanged}" Grid.Row="0" Grid.Column="1"/>
-            <Label Height="25" Content="{Binding Doctor.MiddleName,  UpdateSourceTrigger=PropertyChanged}" Grid.Row="1" Grid.Column="1"/>
-            <Label Height="25" Content="{Binding Doctor.LastName,  UpdateSourceTrigger=PropertyChanged}" Grid.Row="2" Grid.Column="1"/>
-            <Label Height="25" Content="{Binding Doctor.Specialisation,  UpdateSourceTrigger=PropertyChanged}" Grid.Row="3" Grid.Column="1"/>
-            <Label Height="25" Content="{Binding Doctor.Password, UpdateSourceTrigger=PropertyChanged}" Grid.Row="4" Grid.Column="1"/>
+            <Label  Content="Имя: " Grid.Row="0" Grid.Column="0"/>
+            <Label  Content="Фамилия: " Grid.Row="1" Grid.Column="0"/>
+            <Label  Content="Отчество: " Grid.Row="2" Grid.Column="0"/>
+            <Label  Content="Специализация: " Grid.Row="3" Grid.Column="0"/>
+            <Label  Content="Пароль: " Grid.Row="4" Grid.Column="0"/>
+            <Label Content="{Binding Doctor.Name,  UpdateSourceTrigger=PropertyChanged}" Grid.Row="0" Grid.Column="1"/>
+            <Label  Content="{Binding Doctor.MiddleName,  UpdateSourceTrigger=PropertyChanged}" Grid.Row="1" Grid.Column="1"/>
+            <Label  Content="{Binding Doctor.LastName,  UpdateSourceTrigger=PropertyChanged}" Grid.Row="2" Grid.Column="1"/>
+            <Label  Content="{Binding Doctor.Specialisation,  UpdateSourceTrigger=PropertyChanged}" Grid.Row="3" Grid.Column="1"/>
+            <Label  Content="{Binding Doctor.Password, UpdateSourceTrigger=PropertyChanged}" Grid.Row="4" Grid.Column="1"/>
         </Grid>
         <StackPanel>
-            <Button Style="{DynamicResource AddButton}" Click="Create" Width="150"/>
-            <Button Click="Appointment"  Width="150" Content="Начать приём"/>
-            <Button Click="Change"  Width="150" Content="Изменить информацию"/>
+            <Button  Content="Создать пациента" Style="{DynamicResource AddButton}" Click="Create" />
+            <Button Click="Appointment"   Content="Начать приём"/>
+            <Button Style="{DynamicResource ChangeButton}" Click="Change" Content="Изменить информацию"/>
         </StackPanel>
-        <ListView ItemsSource="{Binding PatientList}" SelectedItem="{Binding selectedPatient}"  Width="300" Height="150">
+        <ListView ItemsSource="{Binding PatientList}" SelectedItem="{Binding selectedPatient}">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel>

@@ -8,9 +8,9 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="RegistrationPage">
 
-    <StackPanel Style="{DynamicResource StackBack}" Height="450" Width="800" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <StackPanel Style="{DynamicResource StackBack}">
 
-        <Label HorizontalAlignment="Center" Height="25" Content="Регистрация пользователя"/>
+        <Label Style="{StaticResource MenuLabel}" Content="Регистрация пользователя"/>
         <Grid Style="{DynamicResource GridBack}">
 
             <Grid.ColumnDefinitions>
@@ -25,20 +25,20 @@
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <Label Height="25" Content="Имя: " Grid.Row="0" Grid.Column="0"/>
-            <Label Height="25" Content="Фамилия: " Grid.Row="1" Grid.Column="0"/>
-            <Label Height="25" Content="Отчество: " Grid.Row="2" Grid.Column="0"/>
-            <Label Height="25" Content="Специализация: " Grid.Row="3" Grid.Column="0"/>
-            <Label Height="25" Content="Пароль: " Grid.Row="4" Grid.Column="0"/>
-            <Label Height="25" Content="Повторение пароля: " Grid.Row="5" Grid.Column="0"/>
-            <TextBox Text="{Binding Name}"  Width="120" Height="20" Grid.Row="0" Grid.Column="1" />
-            <TextBox Text="{Binding LastName}"   Width="120" Height="20"  Grid.Row="1" Grid.Column="1"/>
-            <TextBox Text="{Binding MiddleName}"  Width="120" Height="20"  Grid.Row="2" Grid.Column="1"/>
-            <TextBox Text="{Binding Specialisation}"  Width="120" Height="20"  Grid.Row="3" Grid.Column="1"/>
-            <TextBox Text="{Binding Password}"  Width="120" Height="20"  Grid.Row="4" Grid.Column="1"/>
-            <TextBox Name="Confirmation" Width="120" Height="20"  Grid.Row="5" Grid.Column="1"/>
+            <Label  Content="Имя: " Grid.Row="0" Grid.Column="0"/>
+            <Label  Content="Фамилия: " Grid.Row="1" Grid.Column="0"/>
+            <Label Content="Отчество: " Grid.Row="2" Grid.Column="0"/>
+            <Label Content="Специализация: " Grid.Row="3" Grid.Column="0"/>
+            <Label  Content="Пароль: " Grid.Row="4" Grid.Column="0"/>
+            <Label  Content="Повторение пароля: " Grid.Row="5" Grid.Column="0"/>
+            <TextBox Text="{Binding Name}"  Grid.Row="0" Grid.Column="1" />
+            <TextBox Text="{Binding LastName}"     Grid.Row="1" Grid.Column="1"/>
+            <TextBox Text="{Binding MiddleName}"    Grid.Row="2" Grid.Column="1"/>
+            <TextBox Text="{Binding Specialisation}"  Grid.Row="3" Grid.Column="1"/>
+            <TextBox Text="{Binding Password}"    Grid.Row="4" Grid.Column="1"/>
+            <TextBox Name="Confirmation"  Grid.Row="5" Grid.Column="1"/>
         </Grid>
-        <Button Style="{StaticResource AddButton}" Click="Registration" Width="150"/>
-        <Button Click="Return" Width="150" Content="Вернуться"/>
+        <Button Content="Зарегистрировать доктора" Style="{StaticResource AddButton}" Click="Registration" />
+        <Button Style="{DynamicResource BackButton}" Click="Return" Content="Вернуться"/>
     </StackPanel>
 </Page>

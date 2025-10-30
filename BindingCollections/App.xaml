@@ -7,7 +7,7 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="/Styles/Theme/Default.xaml"/>
-                <ResourceDictionary Source="/Styles/UI/Button.xaml"/>
+                <ResourceDictionary Source="/Styles/UI/Main.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

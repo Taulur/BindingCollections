@@ -5,21 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BindingCollections"
         mc:Ignorable="d"
-        Title="MainWindow" Height="525" Width="800">
+        Title="MainWindow" Height="550" Width="800">
 
-    <StackPanel Style="{DynamicResource StackBack}">
-        <Menu Height="20">
+    <StackPanel>
+        <Menu>
             <MenuItem Header="Настройки">
                 <MenuItem Header="Сменить тему" Click="MenuItem_Click" >
                 </MenuItem>
             </MenuItem>
         </Menu>
-        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Height="430" Width="800"></Frame>
-        <StackPanel Style="{DynamicResource StackBack}" Orientation="Horizontal">
-                <Label  VerticalAlignment="Center" Content="Количество пользователей:"/>
-            <Label VerticalAlignment="Center" Content="{Binding CountDoctor,  UpdateSourceTrigger=PropertyChanged}"/>
-                <Label VerticalAlignment="Center" Content="Количество пациентов:"/>
-                <Label VerticalAlignment="Center" Content="{Binding CountPatient,  UpdateSourceTrigger=PropertyChanged}"/>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"></Frame>
+        <StackPanel Orientation="Horizontal">
+            <Label  Style="{StaticResource MenuLabel}" Content="Количество пользователей:"/>
+            <Label Style="{StaticResource MenuLabel}" Content="{Binding CountDoctor,  UpdateSourceTrigger=PropertyChanged}"/>
+            <Label Style="{StaticResource MenuLabel}" Content="Количество пациентов:"/>
+            <Label Style="{StaticResource MenuLabel}" Content="{Binding CountPatient,  UpdateSourceTrigger=PropertyChanged}"/>
             </StackPanel>
     </StackPanel>
 </Window>

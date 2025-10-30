@@ -8,8 +8,8 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="AppointmentPage">
 
-    <StackPanel Style="{DynamicResource StackBack}"  Width="800" Height="450"  VerticalAlignment="Center" HorizontalAlignment="Center">
-        <Label HorizontalAlignment="Center" Height="25" Content="Приём пациента"/>
+    <StackPanel Style="{DynamicResource StackBack}" >
+        <Label Style="{StaticResource MenuLabel}" Content="Приём пациента"/>
         <Grid Style="{DynamicResource GridBack}"  >
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
@@ -23,18 +23,18 @@
                 <RowDefinition/>
 
             </Grid.RowDefinitions>
-            <Label Height="25" Content="Имя: " Grid.Row="0" Grid.Column="0"/>
-            <Label Height="25" Content="Фамилия: " Grid.Row="1" Grid.Column="0"/>
-            <Label Height="25" Content="Отчество: " Grid.Row="2" Grid.Column="0"/>
-            <Label Height="25" Content="Дата рождения: " Grid.Row="3" Grid.Column="0"/>
+            <Label  Content="Имя: " Grid.Row="0" Grid.Column="0"/>
+            <Label Content="Фамилия: " Grid.Row="1" Grid.Column="0"/>
+            <Label Content="Отчество: " Grid.Row="2" Grid.Column="0"/>
+            <Label  Content="Дата рождения: " Grid.Row="3" Grid.Column="0"/>
 
-            <Label  Height="25" Content="{Binding Patient.Name}" Grid.Row="0" Grid.Column="1"/>
-            <Label Height="25" Content="{Binding Patient.LastName}"  Grid.Row="1" Grid.Column="1"/>
-            <Label Height="25" Content="{Binding Patient.MiddleName}"  Grid.Row="2" Grid.Column="1"/>
-            <Label Height="25"  Content="{Binding Patient.Birthday}" Grid.Row="3" Grid.Column="1"/>
+            <Label   Content="{Binding Patient.Name}" Grid.Row="0" Grid.Column="1"/>
+            <Label  Content="{Binding Patient.LastName}"  Grid.Row="1" Grid.Column="1"/>
+            <Label  Content="{Binding Patient.MiddleName}"  Grid.Row="2" Grid.Column="1"/>
+            <Label  Content="{Binding Patient.Birthday}" Grid.Row="3" Grid.Column="1"/>
             
         </Grid>
-        <ListView ItemsSource="{Binding Patient.LastAppointment}" LostFocus="ListView_LostFocus" SelectionChanged="ListView_SelectionChanged" SelectedItem="{Binding CopyAppointment}" MouseDoubleClick="ListView_MouseDoubleClick"  Width="300" Height="100">
+        <ListView ItemsSource="{Binding Patient.LastAppointment}" LostFocus="ListView_LostFocus" SelectionChanged="ListView_SelectionChanged" SelectedItem="{Binding CopyAppointment}" MouseDoubleClick="ListView_MouseDoubleClick" >
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel>
@@ -72,15 +72,15 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-            <Label Height="25" Content="Дата приёма: " Grid.Row="0" Grid.Column="0"/>
-            <Label Height="25" Content="Диагноз: " Grid.Row="1" Grid.Column="0"/>
-            <Label Grid.ColumnSpan="2" HorizontalAlignment="Center" Height="25" Content="Рекомендация: " Grid.Row="2" Grid.Column="0"/>
-            <DatePicker Text="{Binding CopyAppointment.Date, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="120" Height="25"  Grid.Row="0" Grid.Column="1"/>
-            <TextBox Text="{Binding CopyAppointment.Diagnosis, UpdateSourceTrigger=PropertyChanged}"  Width="120" Height="20" Grid.Row="1" Grid.Column="1"/>
-            <TextBox Text="{Binding CopyAppointment.Recomendations, UpdateSourceTrigger=PropertyChanged}"  Margin="10" Grid.ColumnSpan="3" Width="225" Height="30" Grid.Row="7" Grid.Column="0"/>
+            <Label  Content="Дата приёма: " Grid.Row="0" Grid.Column="0"/>
+            <Label  Content="Диагноз: " Grid.Row="1" Grid.Column="0"/>
+            <Label Style="{StaticResource MenuLabel}" Grid.ColumnSpan="2"  Height="25" Content="Рекомендация: " Grid.Row="2" Grid.Column="0"/>
+            <DatePicker Text="{Binding CopyAppointment.Date, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"  Grid.Row="0" Grid.Column="1"/>
+            <TextBox Text="{Binding CopyAppointment.Diagnosis, UpdateSourceTrigger=PropertyChanged}"  Grid.Row="1" Grid.Column="1"/>
+            <TextBox Style="{StaticResource WideBox}" Text="{Binding CopyAppointment.Recomendations, UpdateSourceTrigger=PropertyChanged}" Grid.ColumnSpan="2"  Grid.Row="7" Grid.Column="0"/>
         </Grid>
-        <Button Style="{StaticResource AddButton}" Click="Add" Width="250" />
+        <Button Content="Создать приём" Style="{StaticResource AddButton}" Click="Add"  />
 
-        <Button Click="Return" Width="250"  Content="Вернуться"/>
+        <Button Style="{DynamicResource BackButton}" Click="Return"  Content="Вернуться"/>
     </StackPanel>
 </Page>

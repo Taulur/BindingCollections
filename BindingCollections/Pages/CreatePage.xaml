@@ -8,8 +8,8 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="CreatePage">
 
-    <StackPanel Style="{DynamicResource StackBack}"  Height="450" Width="800" VerticalAlignment="Center" HorizontalAlignment="Center">
-        <Label HorizontalAlignment="Center" Height="25" Content="Регистрация пациента"/>
+    <StackPanel Style="{DynamicResource StackBack}" >
+        <Label Style="{StaticResource MenuLabel}" Content="Регистрация пациента"/>
         <Grid Style="{DynamicResource GridBack}">
 
             <Grid.ColumnDefinitions>
@@ -26,17 +26,17 @@
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <Label Height="25" Content="Имя: " Grid.Row="0" Grid.Column="0"/>
-            <Label Height="25" Content="Фамилия: " Grid.Row="1" Grid.Column="0"/>
-            <Label Height="25" Content="Отчество: " Grid.Row="2" Grid.Column="0"/>
-            <Label Height="25" Content="Дата рождения: " Grid.Row="3" Grid.Column="0"/>
-            <TextBox Text="{Binding Name}"  Width="120" Height="20"  Grid.Row="0" Grid.Column="1"/>
-            <TextBox Text="{Binding LastName}" Width="120" Height="20"  Grid.Row="1" Grid.Column="1"/>
-            <TextBox Text="{Binding MiddleName}" Width="120" Height="20"  Grid.Row="2" Grid.Column="1"/>
-            <DatePicker Text="{Binding Birthday, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"  Width="120" Height="25"  Grid.Row="3" Grid.Column="1"/>
+            <Label Content="Имя: " Grid.Row="0" Grid.Column="0"/>
+            <Label Content="Фамилия: " Grid.Row="1" Grid.Column="0"/>
+            <Label  Content="Отчество: " Grid.Row="2" Grid.Column="0"/>
+            <Label  Content="Дата рождения: " Grid.Row="3" Grid.Column="0"/>
+            <TextBox Text="{Binding Name}"   Grid.Row="0" Grid.Column="1"/>
+            <TextBox Text="{Binding LastName}"   Grid.Row="1" Grid.Column="1"/>
+            <TextBox Text="{Binding MiddleName}"    Grid.Row="2" Grid.Column="1"/>
+            <DatePicker Text="{Binding Birthday, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"   Grid.Row="3" Grid.Column="1"/>
 
         </Grid>
-        <Button Style="{StaticResource AddButton}" Click="Register"  Width="150" />
-        <Button Click="Return"  Width="150" Content="Вернуться"/>
+        <Button Content="Зарегистрировать пациента" Style="{StaticResource AddButton}" Click="Register" />
+        <Button Style="{DynamicResource BackButton}" Click="Return"  Content="Вернуться"/>
     </StackPanel>
 </Page>
