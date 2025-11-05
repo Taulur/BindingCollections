@@ -4,8 +4,9 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:BindingCollections.Pages"
+      xmlns:validators="clr-namespace:BindingCollections.ValidationRules"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="550" d:DesignWidth="800"
       Title="RegistrationPage">
 
     <StackPanel Style="{DynamicResource StackBack}">
@@ -31,11 +32,96 @@
             <Label Content="Специализация: " Grid.Row="3" Grid.Column="0"/>
             <Label  Content="Пароль: " Grid.Row="4" Grid.Column="0"/>
             <Label  Content="Повторение пароля: " Grid.Row="5" Grid.Column="0"/>
-            <TextBox Text="{Binding Name}"  Grid.Row="0" Grid.Column="1" />
-            <TextBox Text="{Binding LastName}"     Grid.Row="1" Grid.Column="1"/>
-            <TextBox Text="{Binding MiddleName}"    Grid.Row="2" Grid.Column="1"/>
-            <TextBox Text="{Binding Specialisation}"  Grid.Row="3" Grid.Column="1"/>
-            <TextBox Text="{Binding Password}"    Grid.Row="4" Grid.Column="1"/>
+            <StackPanel Grid.Row="0" Grid.Column="1">
+                <TextBox x:Name="NameBox"  >
+                    <TextBox.Text>
+                        <Binding Path="Name">
+                            <Binding.ValidationRules>
+                                <validators:MainValidation/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+                <ItemsControl Foreground="Red" FontSize="12" ItemsSource="{Binding ElementName=NameBox, Path=(Validation.Errors)}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock HorizontalAlignment="Center" Text="{Binding ErrorContent}" TextWrapping="Wrap"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Grid.Column="1">
+                <TextBox x:Name="LastNameBox"  >
+                    <TextBox.Text>
+                        <Binding Path="LastName">
+                            <Binding.ValidationRules>
+                                <validators:MainValidation/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+                <ItemsControl Foreground="Red" FontSize="12" ItemsSource="{Binding ElementName=LastNameBox, Path=(Validation.Errors)}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock HorizontalAlignment="Center" Text="{Binding ErrorContent}" TextWrapping="Wrap"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+            <StackPanel Grid.Row="2" Grid.Column="1">
+                <TextBox x:Name="MiddleNameBox"  >
+                    <TextBox.Text>
+                        <Binding Path="MiddleName">
+                            <Binding.ValidationRules>
+                                <validators:MainValidation/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+                <ItemsControl Foreground="Red" FontSize="12" ItemsSource="{Binding ElementName=MiddleNameBox, Path=(Validation.Errors)}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock HorizontalAlignment="Center" Text="{Binding ErrorContent}" TextWrapping="Wrap"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+            <StackPanel Grid.Row="3" Grid.Column="1">
+                <TextBox x:Name="SpecialisationBox"  >
+                    <TextBox.Text>
+                        <Binding Path="Specialisation">
+                            <Binding.ValidationRules>
+                                <validators:MainValidation/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+                <ItemsControl Foreground="Red" FontSize="12" ItemsSource="{Binding ElementName=SpecialisationBox, Path=(Validation.Errors)}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock HorizontalAlignment="Center" Text="{Binding ErrorContent}" TextWrapping="Wrap"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+            <StackPanel Grid.Row="4" Grid.Column="1">
+                <TextBox x:Name="PasswordBox"  >
+                    <TextBox.Text>
+                        <Binding Path="Password">
+                            <Binding.ValidationRules>
+                                <validators:MainValidation/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+                <ItemsControl Foreground="Red" FontSize="12" ItemsSource="{Binding ElementName=PasswordBox, Path=(Validation.Errors)}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock HorizontalAlignment="Center" Text="{Binding ErrorContent}" TextWrapping="Wrap"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
             <TextBox Name="Confirmation"  Grid.Row="5" Grid.Column="1"/>
         </Grid>
         <Button Content="Зарегистрировать доктора" Style="{StaticResource AddButton}" Click="Registration" />

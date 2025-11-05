@@ -27,7 +27,7 @@ namespace BindingCollections.Pages
         public ChangePage(Patient patient)
         {
             _patient = patient;
-            copyPatient = new Patient(_patient.Name, _patient.LastName, _patient.MiddleName, _patient.Birthday, _patient.LastAppointment);
+            copyPatient = new Patient(_patient.Name, _patient.LastName, _patient.MiddleName, _patient.Birthday, _patient.Number, _patient.LastAppointment);
             DataContext = copyPatient;
             InitializeComponent();
         }
@@ -45,6 +45,7 @@ namespace BindingCollections.Pages
             _patient.LastName = copyPatient.LastName;
             _patient.MiddleName = copyPatient.MiddleName;
             _patient.Birthday = copyPatient.Birthday;
+            _patient.Number = copyPatient.Number;
             _patient.LastAppointment = copyPatient.LastAppointment;
             NavigationService.GoBack();
         }

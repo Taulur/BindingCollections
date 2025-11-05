@@ -21,7 +21,9 @@
             </Grid.RowDefinitions>
             <Label Grid.Row="0" Grid.Column="0" Content="id пользователя: "/>
             <Label Grid.Row="1" Grid.Column="0" Content="Пароль: "/>
-            <TextBox Name="idLogin"  Grid.Row="0" Grid.Column="1"/>
+            <TextBox Name="idLogin"  Grid.Row="0" Grid.Column="1">
+                
+            </TextBox>
             <TextBox Name="passwordLogin" Grid.Row="1" Grid.Column="1" />
 
         </Grid>

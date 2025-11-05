@@ -4,10 +4,13 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:BindingCollections.Pages"
+      xmlns:converters="clr-namespace:BindingCollections.Converters"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="MainPage">
-
+    <Page.Resources>
+        <converters:NumberConverter x:Key="numberConverter"/>
+    </Page.Resources>
     <StackPanel Style="{DynamicResource StackBack}" Grid.Row="2" Grid.Column="0">
         <Label Style="{DynamicResource MenuLabel}" Content="Текущий пользователь"/>
 
@@ -60,6 +63,11 @@
                             <TextBlock Text="Дата рождения: "/>
                             <TextBlock Text="{Binding Birthday}"/>
                         </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Номер телефона: "/>
+                            <TextBlock Text="{Binding Number, Converter={StaticResource numberConverter}}"/>
+                        </StackPanel>
+                        
                        
                     </StackPanel>
                 </DataTemplate>

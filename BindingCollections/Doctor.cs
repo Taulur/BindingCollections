@@ -25,7 +25,7 @@ namespace BindingCollections
                 }
             }
         }
-        private string _name = "";
+        private string _name = string.Empty;
         public string Name
         {
             get => _name;
@@ -38,7 +38,7 @@ namespace BindingCollections
                 }
             }
         }
-        private string _lastname = "";
+        private string _lastname = string.Empty;
         public string LastName
         {
             get => _lastname;
@@ -51,7 +51,7 @@ namespace BindingCollections
                 }
             }
         }
-        private string _middlename = "";
+        private string _middlename = string.Empty;
         public string MiddleName
         {
             get => _middlename;
@@ -64,7 +64,7 @@ namespace BindingCollections
                 }
             }
         }
-        private string _specialisation = "";
+        private string _specialisation = string.Empty;
         public string Specialisation
         {
             get => _specialisation;
@@ -77,7 +77,7 @@ namespace BindingCollections
                 }
             }
         }
-        private string _password = "";
+        private string _password = string.Empty;
         public string Password
         {
             get => _password;

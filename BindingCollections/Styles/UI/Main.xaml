@@ -44,12 +44,12 @@
         
         <Setter Property="VerticalAlignment" Value="Center"></Setter>
         <Setter Property="HorizontalAlignment" Value="Center"></Setter>
-        <Setter Property="Height" Value="450"></Setter>
+        <Setter Property="Height" Value="475"></Setter>
         <Setter Property="Width" Value="750"></Setter>
     </Style>
 
     <Style TargetType="Frame">
-        <Setter Property="Height" Value="450"></Setter>
+        <Setter Property="Height" Value="475"></Setter>
         <Setter Property="Width" Value="750"></Setter>
         <Setter Property="VerticalAlignment" Value="Center"></Setter>
         <Setter Property="HorizontalAlignment" Value="Center"></Setter>
@@ -71,7 +71,7 @@
         <Setter Property="Background" Value="{DynamicResource ButtonBackground}"></Setter>
         <Setter Property="Foreground" Value="{DynamicResource TextColor}"></Setter>
         <Setter Property="Height" Value="100"></Setter>
-        <Setter Property="Width" Value="350"></Setter>
+        <Setter Property="Width" Value="250"></Setter>
     </Style>
 
     <Style TargetType="Menu">

@@ -62,7 +62,7 @@ namespace BindingCollections.Pages
 
         private void Add(object sender, RoutedEventArgs e)
         {
-             if (CopyAppointment.Diagnosis != "" && CopyAppointment.Recomendations != "")
+             if (CopyAppointment.Diagnosis != "" && CopyAppointment.Recomendations != "" && CopyAppointment.Date != "")
             {
                 CopyAppointment.DoctorId = doctor.Id;
                 Patient.LastAppointment.Add(CopyAppointment);

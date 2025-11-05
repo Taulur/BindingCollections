@@ -39,7 +39,7 @@ namespace BindingCollections.Pages
 
         private void Register(object sender, RoutedEventArgs e)
         {
-            if (registredPatient.Name != "" && registredPatient.LastName != "" && registredPatient.MiddleName != "" && registredPatient.Birthday != "")
+            if (registredPatient.Name != "" && registredPatient.LastName != "" && registredPatient.MiddleName != "" && registredPatient.Birthday != "" && registredPatient.Number != "")
             {
                 string rndId = "999999";
                 string fileName = "null";

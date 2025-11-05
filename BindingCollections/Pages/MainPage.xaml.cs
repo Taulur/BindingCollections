@@ -29,11 +29,12 @@ namespace BindingCollections.Pages
 
         public static void Refresh()
         {
+            PatientList.Clear();
 
             List<string> patients = Directory.GetFiles(Directory.GetCurrentDirectory(), "*.json", SearchOption.TopDirectoryOnly)
                             .Where(file => Path.GetFileName(file).Contains("P_")).ToList();
 
-            PatientList.Clear();
+            
             foreach (string fileName in patients)
             {
                 string jsonString = File.ReadAllText(fileName);

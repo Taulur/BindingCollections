@@ -12,13 +12,13 @@ namespace BindingCollections
 {
     public class Patient : INotifyPropertyChanged
     {
-        private string _id = "";
+        private string _id = string.Empty;
         public string Id
         {
             get => _id;
             set => _id = value;
         }
-        private string _name = "";
+        private string _name = string.Empty;
         public string Name
         {
             get => _name;
@@ -31,7 +31,7 @@ namespace BindingCollections
                 }
             }
         }
-        private string _lastname = "";
+        private string _lastname = string.Empty;
         public string LastName
         {
             get => _lastname;
@@ -44,7 +44,7 @@ namespace BindingCollections
                 }
             }
         }
-        private string _middlename = "";
+        private string _middlename = string.Empty;
         public string MiddleName
         {
             get => _middlename;
@@ -57,7 +57,7 @@ namespace BindingCollections
                 }
             }
         }
-        private string _birthday = "";
+        private string _birthday = string.Empty;
         public string Birthday
         {
             get => _birthday;
@@ -66,6 +66,19 @@ namespace BindingCollections
                 if (_birthday != value)
                 {
                     _birthday = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
+        private string _number = string.Empty;
+        public string Number
+        {
+            get => _number;
+            set
+            {
+                if (_number != value)
+                {
+                    _number = value;
                     OnPropertyChanged();
                 }
             }
@@ -97,12 +110,14 @@ namespace BindingCollections
 
         }
 
-        public Patient(string name, string lastname, string middlename, string birthday, ObservableCollection<AppointmentStory> lastAppointment)
+        public Patient(string name, string lastname, string middlename, string birthday, string number, ObservableCollection<AppointmentStory> lastAppointment)
         {
+            Number = number;
             Name = name;
             LastName = lastname;
             MiddleName = middlename;
             Birthday = birthday;
+            Number = number;
             LastAppointment = lastAppointment;
         }
 

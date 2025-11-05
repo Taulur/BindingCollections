@@ -36,3 +36,4 @@ C:\Учеба\BindingCollections\BindingCollections\obj\Debug\net8.0-windows\Sty
 C:\Учеба\BindingCollections\BindingCollections\bin\Debug\net8.0-windows\BindingCollections.dll.config
 C:\Учеба\BindingCollections\BindingCollections\obj\Debug\net8.0-windows\Styles\Theme\Dark.baml
 C:\Учеба\BindingCollections\BindingCollections\obj\Debug\net8.0-windows\Styles\UI\Main.baml
+C:\Учеба\BindingCollections\BindingCollections\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
