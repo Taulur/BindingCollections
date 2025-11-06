@@ -1,0 +1,151 @@
+﻿<Page x:Class="BindingCollections.Pages.AppointmentPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BindingCollections.Pages"
+      xmlns:converters="clr-namespace:BindingCollections.Converters"
+      xmlns:validators="clr-namespace:BindingCollections.ValidationRules"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AppointmentPage">
+    <Page.Resources>
+        <converters:AgeConverter x:Key="ageConverter"/>
+        <converters:IsOldConverter x:Key="isOldConverter"/>
+        <converters:AppointmentConvertor x:Key="appointmentConvertor"/>
+    </Page.Resources>
+    <StackPanel Style="{DynamicResource StackBack}" >
+        <Label Style="{StaticResource MenuLabel}" Content="Приём пациента"/>
+        <Grid Style="{DynamicResource GridBack}"  >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+
+            </Grid.RowDefinitions>
+            <Label  Content="Имя: " Grid.Row="0" Grid.Column="0"/>
+            <Label Content="Фамилия: " Grid.Row="1" Grid.Column="0"/>
+            <Label Content="Отчество: " Grid.Row="2" Grid.Column="0"/>
+            <Label  Content="Дата рождения: " Grid.Row="3" Grid.Column="0"/>
+            <Label  Content="Возраст: " Grid.Row="4" Grid.Column="0"/>
+            <Label  Content="Совершеннолетний: " Grid.Row="5" Grid.Column="0"/>
+
+            <Label   Content="{Binding Patient.Name}" Grid.Row="0" Grid.Column="1"/>
+            <Label  Content="{Binding Patient.LastName}"  Grid.Row="1" Grid.Column="1"/>
+            <Label  Content="{Binding Patient.MiddleName}"  Grid.Row="2" Grid.Column="1"/>
+            <Label  Content="{Binding Patient.Birthday}" Grid.Row="3" Grid.Column="1"/>
+            <Label  Content="{Binding Patient.Birthday, Converter={StaticResource ageConverter}}" Grid.Row="4" Grid.Column="1"/>
+            <Label  Content="{Binding Patient.Birthday, Converter={StaticResource isOldConverter}}" Grid.Row="5" Grid.Column="1"/>
+            
+        </Grid>
+        <Label Background="Red" Style="{StaticResource MenuLabel}" Content="{Binding Patient.LastAppointment, Converter={StaticResource appointmentConvertor}}"/>
+        <ListView ItemsSource="{Binding Patient.LastAppointment}" LostFocus="ListView_LostFocus" SelectionChanged="ListView_SelectionChanged" MouseDoubleClick="ListView_MouseDoubleClick" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Дата приёма: "/>
+                            <TextBlock Text="{Binding Date}"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Id доктора: "/>
+                            <TextBlock Text="{Binding DoctorId}"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Диагноз: "/>
+                            <TextBlock Text="{Binding Diagnosis}"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Рекомендация: "/>
+                            <TextBlock Text="{Binding Recomendations}"/>
+                        </StackPanel>
+
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Label  Content="Дата приёма: " Grid.Row="0" Grid.Column="0"/>
+            <Label  Content="Диагноз: " Grid.Row="1" Grid.Column="0"/>
+            <Label Content="Рекомендация: " Grid.Row="2" Grid.Column="0"/>
+            <StackPanel Grid.Row="0" Grid.Column="1">
+                <TextBox x:Name="DateBox"  >
+                    <TextBox.Text>
+                        <Binding Path="CopyAppointment.Date" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validators:DateValidation/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+                <ItemsControl Foreground="Red" FontSize="12" ItemsSource="{Binding ElementName=DateBox, Path=(Validation.Errors)}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock HorizontalAlignment="Center" Text="{Binding ErrorContent}" TextWrapping="Wrap"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Grid.Column="1">
+                <TextBox x:Name="DiagnosisBox"  >
+                    <TextBox.Text>
+                        <Binding Path="CopyAppointment.Diagnosis" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validators:MainValidation/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+                <ItemsControl Foreground="Red" FontSize="12" ItemsSource="{Binding ElementName=DiagnosisBox, Path=(Validation.Errors)}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock HorizontalAlignment="Center" Text="{Binding ErrorContent}" TextWrapping="Wrap"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+            <StackPanel Grid.Row="2" Grid.Column="1">
+                <TextBox Style="{StaticResource WideBox}" x:Name="RecomendationBox"  >
+                    <TextBox.Text>
+                        <Binding Path="CopyAppointment.Recomendations" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validators:MainValidation/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+                <ItemsControl Foreground="Red" FontSize="12" ItemsSource="{Binding ElementName=RecomendationBox, Path=(Validation.Errors)}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock HorizontalAlignment="Center" Text="{Binding ErrorContent}" TextWrapping="Wrap"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </Grid>
+        <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+            <Button Content="Создать приём" Style="{StaticResource AddButton}" Click="Add"  />
+            <Button Style="{DynamicResource BackButton}" Click="Return"  Content="Вернуться"/>
+        </StackPanel>
+
+    </StackPanel>
+</Page>
