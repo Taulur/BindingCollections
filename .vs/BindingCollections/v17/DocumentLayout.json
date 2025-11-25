@@ -3,32 +3,60 @@
   "WorkspaceRootPath": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\styles\\ui\\main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\styles\\ui\\main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\styles\\theme\\default.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\styles\\theme\\default.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\styles\\theme\\dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\styles\\theme\\dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\pages\\appointmentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\pages\\appointmentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\pages\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\pages\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\pages\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\pages\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\pages\\createpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\pages\\createpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\pages\\appointmentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\pages\\appointmentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\pages\\changepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\pages\\changepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\pages\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\pages\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\pages\\appointmentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,16 +79,8 @@
       "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\validationrules\\datevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\pages\\createpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\pages\\createpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\pages\\createpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\pages\\createpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\pages\\changepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\pages\\changepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\pages\\changepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,14 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|c:\\\u0443\u0447\u0435\u0431\u0430\\bindingcollections\\bindingcollections\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18BFCD07-55AB-427B-B103-37D02EEBA8AC}|BindingCollections\\BindingCollections.csproj|solutionrelative:bindingcollections\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,94 +110,18 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "BindingCollections\\MainWindow.xaml",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\MainWindow.xaml",
-              "RelativeToolTip": "BindingCollections\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-05T13:52:33.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Main.xaml",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Styles\\UI\\Main.xaml",
-              "RelativeDocumentMoniker": "BindingCollections\\Styles\\UI\\Main.xaml",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Styles\\UI\\Main.xaml",
-              "RelativeToolTip": "BindingCollections\\Styles\\UI\\Main.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-05T13:51:43.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AppointmentPage.xaml.cs",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\AppointmentPage.xaml.cs",
-              "RelativeDocumentMoniker": "BindingCollections\\Pages\\AppointmentPage.xaml.cs",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\AppointmentPage.xaml.cs",
-              "RelativeToolTip": "BindingCollections\\Pages\\AppointmentPage.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T16:35:35.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Patient.cs",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Patient.cs",
-              "RelativeDocumentMoniker": "BindingCollections\\Patient.cs",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Patient.cs",
-              "RelativeToolTip": "BindingCollections\\Patient.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAAAFUAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T14:20:50.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\MainPage.xaml",
-              "RelativeDocumentMoniker": "BindingCollections\\Pages\\MainPage.xaml",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\MainPage.xaml",
-              "RelativeToolTip": "BindingCollections\\Pages\\MainPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-04T14:17:16.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AgeConverter.cs",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Converters\\AgeConverter.cs",
-              "RelativeDocumentMoniker": "BindingCollections\\Converters\\AgeConverter.cs",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Converters\\AgeConverter.cs",
-              "RelativeToolTip": "BindingCollections\\Converters\\AgeConverter.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T13:31:29.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "BindingCollections\\Pages\\MainPage.xaml.cs",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\MainPage.xaml.cs",
-              "RelativeToolTip": "BindingCollections\\Pages\\MainPage.xaml.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAApwB4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T14:31:10.914Z",
+              "Title": "AppointmentPage.xaml",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\AppointmentPage.xaml",
+              "RelativeDocumentMoniker": "BindingCollections\\Pages\\AppointmentPage.xaml",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\AppointmentPage.xaml",
+              "RelativeToolTip": "BindingCollections\\Pages\\AppointmentPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-04T15:04:01.683Z",
               "EditorCaption": ""
             },
             {
@@ -202,116 +138,248 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppointmentPage.xaml",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\AppointmentPage.xaml",
-              "RelativeDocumentMoniker": "BindingCollections\\Pages\\AppointmentPage.xaml",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\AppointmentPage.xaml",
-              "RelativeToolTip": "BindingCollections\\Pages\\AppointmentPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-04T15:04:01.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "RegistrationPage.xaml.cs",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\RegistrationPage.xaml.cs",
-              "RelativeDocumentMoniker": "BindingCollections\\Pages\\RegistrationPage.xaml.cs",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\RegistrationPage.xaml.cs",
-              "RelativeToolTip": "BindingCollections\\Pages\\RegistrationPage.xaml.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T16:28:00.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AppointmentConvertor.cs",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Converters\\AppointmentConvertor.cs",
-              "RelativeDocumentMoniker": "BindingCollections\\Converters\\AppointmentConvertor.cs",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Converters\\AppointmentConvertor.cs",
-              "RelativeToolTip": "BindingCollections\\Converters\\AppointmentConvertor.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAADIAAABoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T13:32:18.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Doctor.cs",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Doctor.cs",
-              "RelativeDocumentMoniker": "BindingCollections\\Doctor.cs",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Doctor.cs",
-              "RelativeToolTip": "BindingCollections\\Doctor.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAE8AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T14:49:18.82Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ChangePage.xaml.cs",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\ChangePage.xaml.cs",
-              "RelativeDocumentMoniker": "BindingCollections\\Pages\\ChangePage.xaml.cs",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\ChangePage.xaml.cs",
-              "RelativeToolTip": "BindingCollections\\Pages\\ChangePage.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T16:24:46.665Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CreatePage.xaml.cs",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\CreatePage.xaml.cs",
-              "RelativeDocumentMoniker": "BindingCollections\\Pages\\CreatePage.xaml.cs",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\CreatePage.xaml.cs",
-              "RelativeToolTip": "BindingCollections\\Pages\\CreatePage.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACkAAACWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T16:24:38.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DateValidation.cs",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\ValidationRules\\DateValidation.cs",
-              "RelativeDocumentMoniker": "BindingCollections\\ValidationRules\\DateValidation.cs",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\ValidationRules\\DateValidation.cs",
-              "RelativeToolTip": "BindingCollections\\ValidationRules\\DateValidation.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T16:22:11.674Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "CreatePage.xaml",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\CreatePage.xaml",
               "RelativeDocumentMoniker": "BindingCollections\\Pages\\CreatePage.xaml",
               "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\CreatePage.xaml",
               "RelativeToolTip": "BindingCollections\\Pages\\CreatePage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-04T14:54:24.442Z"
+              "WhenOpened": "2025-11-04T14:54:24.442Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 0,
+              "Title": "Main.xaml",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Styles\\UI\\Main.xaml",
+              "RelativeDocumentMoniker": "BindingCollections\\Styles\\UI\\Main.xaml",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Styles\\UI\\Main.xaml",
+              "RelativeToolTip": "BindingCollections\\Styles\\UI\\Main.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-05T13:51:43.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Default.xaml",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Styles\\Theme\\Default.xaml",
+              "RelativeDocumentMoniker": "BindingCollections\\Styles\\Theme\\Default.xaml",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Styles\\Theme\\Default.xaml",
+              "RelativeToolTip": "BindingCollections\\Styles\\Theme\\Default.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-25T04:21:49.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ChangePage.xaml",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\ChangePage.xaml",
               "RelativeDocumentMoniker": "BindingCollections\\Pages\\ChangePage.xaml",
               "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\ChangePage.xaml",
               "RelativeToolTip": "BindingCollections\\Pages\\ChangePage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-04T14:13:33.298Z"
+              "WhenOpened": "2025-11-04T14:13:33.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "BindingCollections\\Pages\\LoginPage.xaml",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\LoginPage.xaml",
+              "RelativeToolTip": "BindingCollections\\Pages\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-04T14:29:28.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dark.xaml",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Styles\\Theme\\Dark.xaml",
+              "RelativeDocumentMoniker": "BindingCollections\\Styles\\Theme\\Dark.xaml",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Styles\\Theme\\Dark.xaml",
+              "RelativeToolTip": "BindingCollections\\Styles\\Theme\\Dark.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-25T04:20:03.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\MainPage.xaml",
+              "RelativeDocumentMoniker": "BindingCollections\\Pages\\MainPage.xaml",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\MainPage.xaml",
+              "RelativeToolTip": "BindingCollections\\Pages\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-04T14:17:16.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\App.xaml",
+              "RelativeDocumentMoniker": "BindingCollections\\App.xaml",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\App.xaml",
+              "RelativeToolTip": "BindingCollections\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-22T15:28:50.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "BindingCollections\\MainWindow.xaml",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\MainWindow.xaml",
+              "RelativeToolTip": "BindingCollections\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-05T13:52:33.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AgeConverter.cs",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Converters\\AgeConverter.cs",
+              "RelativeDocumentMoniker": "BindingCollections\\Converters\\AgeConverter.cs",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Converters\\AgeConverter.cs",
+              "RelativeToolTip": "BindingCollections\\Converters\\AgeConverter.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T13:31:29.782Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Patient.cs",
+              "RelativeDocumentMoniker": "BindingCollections\\Patient.cs",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Patient.cs",
+              "RelativeToolTip": "BindingCollections\\Patient.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAABBwFUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T14:20:50.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "BindingCollections\\Pages\\MainPage.xaml.cs",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\MainPage.xaml.cs",
+              "RelativeToolTip": "BindingCollections\\Pages\\MainPage.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAApwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T14:31:10.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppointmentPage.xaml.cs",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\AppointmentPage.xaml.cs",
+              "RelativeDocumentMoniker": "BindingCollections\\Pages\\AppointmentPage.xaml.cs",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\AppointmentPage.xaml.cs",
+              "RelativeToolTip": "BindingCollections\\Pages\\AppointmentPage.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAABBwCIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T16:35:35.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\App.xaml.cs",
+              "RelativeDocumentMoniker": "BindingCollections\\App.xaml.cs",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\App.xaml.cs",
+              "RelativeToolTip": "BindingCollections\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T05:58:39.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegistrationPage.xaml.cs",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\RegistrationPage.xaml.cs",
+              "RelativeDocumentMoniker": "BindingCollections\\Pages\\RegistrationPage.xaml.cs",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\RegistrationPage.xaml.cs",
+              "RelativeToolTip": "BindingCollections\\Pages\\RegistrationPage.xaml.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T16:28:00.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppointmentConvertor.cs",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Converters\\AppointmentConvertor.cs",
+              "RelativeDocumentMoniker": "BindingCollections\\Converters\\AppointmentConvertor.cs",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Converters\\AppointmentConvertor.cs",
+              "RelativeToolTip": "BindingCollections\\Converters\\AppointmentConvertor.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAABBwDIAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T13:32:18.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Doctor.cs",
+              "RelativeDocumentMoniker": "BindingCollections\\Doctor.cs",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Doctor.cs",
+              "RelativeToolTip": "BindingCollections\\Doctor.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAABBwE8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T14:49:18.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ChangePage.xaml.cs",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\ChangePage.xaml.cs",
+              "RelativeDocumentMoniker": "BindingCollections\\Pages\\ChangePage.xaml.cs",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\ChangePage.xaml.cs",
+              "RelativeToolTip": "BindingCollections\\Pages\\ChangePage.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T16:24:46.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreatePage.xaml.cs",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\CreatePage.xaml.cs",
+              "RelativeDocumentMoniker": "BindingCollections\\Pages\\CreatePage.xaml.cs",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\CreatePage.xaml.cs",
+              "RelativeToolTip": "BindingCollections\\Pages\\CreatePage.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAABBwCkAAACWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T16:24:38.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DateValidation.cs",
+              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\ValidationRules\\DateValidation.cs",
+              "RelativeDocumentMoniker": "BindingCollections\\ValidationRules\\DateValidation.cs",
+              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\ValidationRules\\DateValidation.cs",
+              "RelativeToolTip": "BindingCollections\\ValidationRules\\DateValidation.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAABBwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T16:22:11.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "NumberConverter.cs",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Converters\\NumberConverter.cs",
               "RelativeDocumentMoniker": "BindingCollections\\Converters\\NumberConverter.cs",
@@ -323,19 +391,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "NumberValidation.cs",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\ValidationRules\\NumberValidation.cs",
               "RelativeDocumentMoniker": "BindingCollections\\ValidationRules\\NumberValidation.cs",
               "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\ValidationRules\\NumberValidation.cs",
               "RelativeToolTip": "BindingCollections\\ValidationRules\\NumberValidation.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAABBwCQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T15:53:16.234Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "MainValidation.cs",
               "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\ValidationRules\\MainValidation.cs",
               "RelativeDocumentMoniker": "BindingCollections\\ValidationRules\\MainValidation.cs",
@@ -344,29 +412,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T14:25:46.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "LoginPage.xaml",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\LoginPage.xaml",
-              "RelativeDocumentMoniker": "BindingCollections\\Pages\\LoginPage.xaml",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\Pages\\LoginPage.xaml",
-              "RelativeToolTip": "BindingCollections\\Pages\\LoginPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-04T14:29:28.363Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\App.xaml.cs",
-              "RelativeDocumentMoniker": "BindingCollections\\App.xaml.cs",
-              "ToolTip": "C:\\\u0423\u0447\u0435\u0431\u0430\\BindingCollections\\BindingCollections\\App.xaml.cs",
-              "RelativeToolTip": "BindingCollections\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T05:58:39.181Z"
             }
           ]
         }

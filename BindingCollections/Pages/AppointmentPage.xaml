@@ -97,7 +97,7 @@
                         </Binding>
                     </TextBox.Text>
                 </TextBox>
-                <ItemsControl Foreground="Red" FontSize="12" ItemsSource="{Binding ElementName=DateBox, Path=(Validation.Errors)}">
+                <ItemsControl Foreground="{DynamicResource ValidBorder}" FontSize="12" ItemsSource="{Binding ElementName=DateBox, Path=(Validation.Errors)}">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate>
                             <TextBlock HorizontalAlignment="Center" Text="{Binding ErrorContent}" TextWrapping="Wrap"/>
@@ -115,7 +115,7 @@
                         </Binding>
                     </TextBox.Text>
                 </TextBox>
-                <ItemsControl Foreground="Red" FontSize="12" ItemsSource="{Binding ElementName=DiagnosisBox, Path=(Validation.Errors)}">
+                <ItemsControl Foreground="{DynamicResource ValidBorder}" FontSize="12" ItemsSource="{Binding ElementName=DiagnosisBox, Path=(Validation.Errors)}">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate>
                             <TextBlock HorizontalAlignment="Center" Text="{Binding ErrorContent}" TextWrapping="Wrap"/>
@@ -133,7 +133,7 @@
                         </Binding>
                     </TextBox.Text>
                 </TextBox>
-                <ItemsControl Foreground="Red" FontSize="12" ItemsSource="{Binding ElementName=RecomendationBox, Path=(Validation.Errors)}">
+                <ItemsControl Foreground="{DynamicResource ValidBorder}" FontSize="12" ItemsSource="{Binding ElementName=RecomendationBox, Path=(Validation.Errors)}">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate>
                             <TextBlock HorizontalAlignment="Center" Text="{Binding ErrorContent}" TextWrapping="Wrap"/>

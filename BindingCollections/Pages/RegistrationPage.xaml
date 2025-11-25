@@ -42,13 +42,7 @@
                         </Binding>
                     </TextBox.Text>
                 </TextBox>
-                <ItemsControl Foreground="Red" FontSize="12" ItemsSource="{Binding ElementName=NameBox, Path=(Validation.Errors)}">
-                    <ItemsControl.ItemTemplate>
-                        <DataTemplate>
-                            <TextBlock HorizontalAlignment="Center" Text="{Binding ErrorContent}" TextWrapping="Wrap"/>
-                        </DataTemplate>
-                    </ItemsControl.ItemTemplate>
-                </ItemsControl>
+               
             </StackPanel>
             <StackPanel Grid.Row="1" Grid.Column="1">
                 <TextBox x:Name="LastNameBox"  >
@@ -60,13 +54,7 @@
                         </Binding>
                     </TextBox.Text>
                 </TextBox>
-                <ItemsControl Foreground="Red" FontSize="12" ItemsSource="{Binding ElementName=LastNameBox, Path=(Validation.Errors)}">
-                    <ItemsControl.ItemTemplate>
-                        <DataTemplate>
-                            <TextBlock HorizontalAlignment="Center" Text="{Binding ErrorContent}" TextWrapping="Wrap"/>
-                        </DataTemplate>
-                    </ItemsControl.ItemTemplate>
-                </ItemsControl>
+              
             </StackPanel>
             <StackPanel Grid.Row="2" Grid.Column="1">
                 <TextBox x:Name="MiddleNameBox"  >
@@ -78,13 +66,7 @@
                         </Binding>
                     </TextBox.Text>
                 </TextBox>
-                <ItemsControl Foreground="Red" FontSize="12" ItemsSource="{Binding ElementName=MiddleNameBox, Path=(Validation.Errors)}">
-                    <ItemsControl.ItemTemplate>
-                        <DataTemplate>
-                            <TextBlock HorizontalAlignment="Center" Text="{Binding ErrorContent}" TextWrapping="Wrap"/>
-                        </DataTemplate>
-                    </ItemsControl.ItemTemplate>
-                </ItemsControl>
+                
             </StackPanel>
             <StackPanel Grid.Row="3" Grid.Column="1">
                 <TextBox x:Name="SpecialisationBox"  >
@@ -96,13 +78,7 @@
                         </Binding>
                     </TextBox.Text>
                 </TextBox>
-                <ItemsControl Foreground="Red" FontSize="12" ItemsSource="{Binding ElementName=SpecialisationBox, Path=(Validation.Errors)}">
-                    <ItemsControl.ItemTemplate>
-                        <DataTemplate>
-                            <TextBlock HorizontalAlignment="Center" Text="{Binding ErrorContent}" TextWrapping="Wrap"/>
-                        </DataTemplate>
-                    </ItemsControl.ItemTemplate>
-                </ItemsControl>
+           
             </StackPanel>
             <StackPanel Grid.Row="4" Grid.Column="1">
                 <TextBox x:Name="PasswordBox"  >
@@ -114,13 +90,7 @@
                         </Binding>
                     </TextBox.Text>
                 </TextBox>
-                <ItemsControl Foreground="Red" FontSize="12" ItemsSource="{Binding ElementName=PasswordBox, Path=(Validation.Errors)}">
-                    <ItemsControl.ItemTemplate>
-                        <DataTemplate>
-                            <TextBlock HorizontalAlignment="Center" Text="{Binding ErrorContent}" TextWrapping="Wrap"/>
-                        </DataTemplate>
-                    </ItemsControl.ItemTemplate>
-                </ItemsControl>
+                
             </StackPanel>
             <TextBox Name="Confirmation"  Grid.Row="5" Grid.Column="1"/>
         </Grid>

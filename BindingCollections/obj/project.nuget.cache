@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "P+wIm5al1Uc=",
+  "dgSpecHash": "nLZP5bn/2FQ=",
   "success": true,
   "projectFilePath": "C:\\Учеба\\BindingCollections\\BindingCollections\\BindingCollections.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\tyler\\.nuget\\packages\\materialdesigncolors\\5.3.0\\materialdesigncolors.5.3.0.nupkg.sha512",
+    "C:\\Users\\tyler\\.nuget\\packages\\materialdesignthemes\\5.3.0\\materialdesignthemes.5.3.0.nupkg.sha512",
+    "C:\\Users\\tyler\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.77\\microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512"
+  ],
   "logs": []
 }
